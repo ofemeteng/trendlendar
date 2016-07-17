@@ -15,7 +15,7 @@ Then clone the repo and run using the steps below.
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-	> git clone git@github.com:ofemeteng/trendlendar.git
+	> git clone https://github.com/ofemeteng/trendlendar.git
 	> cd trendlendar
 	> npm install
 	> npm start
