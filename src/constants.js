@@ -1,4 +1,4 @@
-export const NYT_API_KEY = '7b25b7a221f14b32874633f1395eae11';
+export const NYT_API_KEY = '';
 
 export const SEARCH_NEWS = 'SEARCH_NEWS';
 
