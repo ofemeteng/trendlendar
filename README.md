@@ -1,6 +1,6 @@
 # Trendlendar
 
-#Description
+###Description###
 A proof of concept React Redux app using New York Times API
 
 
