@@ -1,15 +1,17 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
+import  ReduxPromise from 'redux-promise';
+import { Provider } from 'react-redux';
+import { Router, Route, hashHistory } from 'react-router';
+import App from './containers/app.container';
+import rootReducer from './reducers';
 
-import App from './components/app';
-import reducers from './reducers';
+const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+
 
 ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
-    <App />
-  </Provider>
-  , document.querySelector('.container'));
+			<Provider store={createStoreWithMiddleware(rootReducer, window.devToolsExtension && window.devToolsExtension())}>
+			<App />
+			</Provider>, document.querySelector('.container'));
