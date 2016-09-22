@@ -3,6 +3,9 @@
 ###Description###
 A proof of concept React Redux app using New York Times API
 
+###Demo###
+A demo of the app can be accessed on [http://trendlendar.surge.sh](http://trendlendar.surge.sh)
+
 
 ###Getting Started###
 
