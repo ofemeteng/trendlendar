@@ -2,6 +2,7 @@
 
 ### Description
 A proof of concept React Redux app using New York Times API
+
 ![Trendlendar](screenshots/homepage.png "Trendlendar Homepage")
 
 ### Demo
